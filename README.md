@@ -22,8 +22,6 @@ This project is bootstrapped with `create-react-app` with reactJs version `17.0.
 |        201-300          | Poor         | #f29c3e |
 |        301-400          | Very Poor    | #e93f33 |
 |        401-500          | Severe       | #af2d24 |
-| ----------------------- | ------------ | ------- |
-
 
 ## Important Commands
 
@@ -31,4 +29,3 @@ This project is bootstrapped with `create-react-app` with reactJs version `17.0.
 | --------------- | --------------------------------------- |
 | `npm i`         | Install all npm modules used in project |
 | `npm run start` | Run the project in localhost            |
-| ----------------| ----------------------------------------|
