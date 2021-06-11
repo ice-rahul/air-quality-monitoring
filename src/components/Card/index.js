@@ -17,6 +17,7 @@ function Card({ city, aqi }) {
           AQI-
           {roundAQI(aqi)}
         </span>
+        <span className="text-bold text-blue">{status && status.name}</span>
         <span className={`badge ${(status && status.className) || ''} box-shadow-blue mr-5px`}>&emsp;</span>
       </div>
       <Sparklines data={sampleData.current}>
