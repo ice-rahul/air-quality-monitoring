@@ -8,6 +8,180 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-* {
-  box-sizing: border-box;
+
+#main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & > div {
+    padding: 15px;
+  }
+
+  .align-center{
+    align-items: center;
+  }
+
+  .badge{
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 50%;
+  }
+
+  .badge-good{
+    background-color: $good;
+  }
+
+  .badge-satisfactory{
+    background-color: $satisfactory;
+  }
+
+  .badge-moderate{
+    background-color: $moderate;
+  }
+
+  .badge-poor{
+    background-color: $poor;
+  }
+
+  .badge-very-poor{
+    background-color: $very-poor;
+  }
+
+  .badge-severe{
+    background-color: $severe;
+  }
+
+  .bg-black{
+    background-color: $black;
+  }
+
+  .border-light{
+    border: 1px solid $border-light;
+  }
+
+  .border-radius-4px{
+    border-radius: 4px;
+  }
+
+  .box-border{
+    box-shadow: 0 0 0 1px;
+  }
+
+  .box-shadow{
+    box-shadow: 0 0 10px 0;
+  }
+
+  .box-shadow-blue{
+    box-shadow: 0 0 5px 0 $blue;
+  }
+
+  .d-flex{
+    display: flex;
+  }
+
+  .flex-1{
+    flex: 1;
+  }
+
+  .flex-column{
+    flex-direction: column;
+  }
+
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
+
+  .gap-10px{
+    gap: 10px;
+  }
+
+  .justify-center{
+    justify-content: center;
+  }
+
+  .justify-space-between{
+    justify-content: space-between;
+  }
+
+  .min-height-100px{
+    min-height: 100px;
+  }
+
+  .min-width-300px{
+    min-width: 300px;
+  }
+
+  .mr-5px{
+    margin-right: 5px;
+  }
+
+  .mr-10px{
+    margin-right: 10px;
+  }
+
+  .mt-5px{
+    margin-top: 5px;
+  }
+
+  .mb-10px{
+    margin-bottom: 10px;
+  }
+
+  .m-10px{
+    margin: 10px;
+  }
+
+  .m-auto{
+    margin: auto;
+  }
+
+  .p-5px{
+    padding: 5px;
+  }
+
+  .p-10px{
+    padding: 10px;
+  }
+
+  .text-white{
+    color: $white;
+  }
+
+  .text-bold{
+    font-weight: 700;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .text-1-2-5em{
+    font-size: 1.25em;
+  }
+
+  .user-select-none{
+    user-select: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .flex-column-small{
+      flex-direction: column;
+    }
+  }
+
+  .hover:hover {
+    cursor: pointer;
+    &.bg-black-hover {
+      background-color: $black;
+    }
+    
+    &.text-white-hover{
+      color: $white;
+    }
+  
+    &.text-bold-hover {
+      font-weight: 700;
+    }
+  }
 }
