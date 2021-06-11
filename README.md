@@ -40,3 +40,8 @@ This project is bootstrapped with `create-react-app` with reactJs version `17.0.
 
 <kbd>![Screenshot 2021-06-11 at 6 09 06 AM](https://user-images.githubusercontent.com/22559660/121614903-5aeaeb80-ca7d-11eb-9089-aba9a9ed3191.png)</kbd>
 
+<kbd>![Screenshot 2021-06-11 at 1 23 16 PM](https://user-images.githubusercontent.com/22559660/121651442-40823380-cab8-11eb-8438-9ce278df5a50.png)
+</kbd>
+
+<kbd>![Screenshot 2021-06-11 at 1 28 21 PM](https://user-images.githubusercontent.com/22559660/121652120-f3529180-cab8-11eb-9fd6-a91354f6e6df.png)
+</kbd>
