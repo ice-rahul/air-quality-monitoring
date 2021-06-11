@@ -76,6 +76,10 @@ html, body {
     box-shadow: 0 0 5px 0 $blue;
   }
 
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
   .d-flex{
     display: flex;
   }
@@ -106,6 +110,10 @@ html, body {
 
   .min-height-100px{
     min-height: 100px;
+  }
+
+  .min-height-150px{
+    min-height: 150px;
   }
 
   .min-width-300px{
@@ -164,13 +172,30 @@ html, body {
     font-size: 1.25em;
   }
 
+  .transition-all{
+    transition: width 2s;
+  }
+
   .user-select-none{
     user-select: none;
+  }
+
+  .w-90{
+    width: 90%;
   }
 
   @media screen and (max-width: 600px) {
     .flex-column-small{
       flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .w-100-small{
+      min-width: 100%;
+    }
+    .w-90-small{
+      min-width: 90%;
     }
   }
 
