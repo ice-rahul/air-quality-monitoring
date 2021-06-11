@@ -35,3 +35,8 @@ This project is bootstrapped with `create-react-app` with reactJs version `17.0.
 
 ## URL for hosted project
 [***Click here to view the project***](https://air-quality-monitoring.netlify.app/)
+
+## Screen Shots
+
+<kbd>![Screenshot 2021-06-11 at 6 09 06 AM](https://user-images.githubusercontent.com/22559660/121614903-5aeaeb80-ca7d-11eb-9089-aba9a9ed3191.png)</kbd>
+
